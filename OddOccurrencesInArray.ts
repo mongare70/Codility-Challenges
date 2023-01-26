@@ -35,26 +35,33 @@ all but one of the values in A occur an even number of times.
 // you can write to stdout for debugging purposes, e.g.
 // console.log('this is a debug message');
 
-const getCount = (arr: any[]) =>
-  arr.reduce((acc, curr) => {
-    acc[curr] = (acc[curr] || 0) + 1;
-    return acc;
-  }, {});
+const getCount = (num: number, numArr: number[]): number => {
+  let i: number = 0, count: number = 0;
+
+  while (i < numArr.length) {
+      if (numArr[i] === num) {
+          count++;
+      }
+      i++;
+  }
+
+  return count;
+}
 
 function solution2(A: number[]): number {
   // Implement your solution here
 
   if (A.length < 2) {
-    return A[0];
+      return A[0];
   }
 
-  const countOfElements = getCount(A);
+  for (let i = 0; i < A.length; i++) {
+      if (getCount(A[i], A) % 2 !== 0) {
+          return (A[i]);
+      }
+  }
 
-  const minKeyValuePair = Object.entries(countOfElements).reduce((a: any, b: any) => {
-    return a[1] < b[1] ? a : b;
-  });
-
-  return parseInt(minKeyValuePair[0]);
+  return 0;
 }
 
 const arr = [9, 3, 9, 3, 9, 7, 9];
