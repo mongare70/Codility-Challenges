@@ -51,7 +51,7 @@ const shift = (arr1: any): number[] => {
   return arr1;
 };
 
-function solution4(A: number[], K: number): number[] {
+function solution3(A: number[], K: number): number[] {
   // Implement your solution here
 
   // if N < 2 return the array
@@ -67,4 +67,4 @@ function solution4(A: number[], K: number): number[] {
 }
 
 const array1 = [3, 8, 9, 7, 6];
-console.log(solution4(array1, 3));
+console.log(solution3(array1, 3));

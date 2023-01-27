@@ -9,5 +9,7 @@
 
 ## Cyclic Rotation => 100%
 
+## FrogJmp => 100%
+
 ***
 *Feel free to contact me if you have any questions*
