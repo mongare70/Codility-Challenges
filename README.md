@@ -3,9 +3,11 @@
 
 ***
 
-## Binary Gap > 86%
+## Binary Gap => 86%
 
-## Odd Occurrences in Array > 66%
+## Odd Occurrences in Array => 66%
+
+## Cyclic Rotation => 100%
 
 ***
-~Feel free to contact me if you have any questions~
+*Feel free to contact me if you have any questions*
