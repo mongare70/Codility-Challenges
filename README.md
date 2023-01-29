@@ -23,5 +23,7 @@
 
 ### PassingCars => 50% (100% accuracy 0% performance) improvements will come later `O(N^2)`
 
+### CountDiv => 50% (100% accuracy 0% performance) improvements will come later `O(B-A)`
+
 ***
 *Feel free to contact me if you have any suggestions*
