@@ -21,14 +21,16 @@
 function solution11(A: number, B: number, K: number): number {
     // Implement your solution here
 
-    // generate array
-    let arr: number[] = [];
+    let count = 0;
 
-    for (let x = A; x <= B; x++) {
-        arr.push(x);
+    for (let i = A; i <= B; i++) {
+        if (i % K === 0) {
+            count++
+        }
     }
 
-    return arr.reduce((count, value) => {
-        return count + (value % K === 0 ? 1 : 0);
-    }, 0);
+    return count;
+
 }
+
+console.log(solution11(6, 11, 2));
