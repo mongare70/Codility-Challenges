@@ -25,5 +25,7 @@
 
 ### CountDiv => 50% (100% accuracy 0% performance) improvements will come later `O(B-A)`
 
+### Distinct => 100% `O(N)`
+
 ***
 *Feel free to contact me if you have any suggestions*
