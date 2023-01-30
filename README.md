@@ -16,7 +16,7 @@
 12. Distinct => 100% `O(N)`
 13. Triangle => 75% (100% accuracy 33% performance) improvements will come later) `O(N^3)`
 14. Denominator => 83% (100% accuracy 50% performance) improvements will come later) `O(N)`
-15. Denominator => 66% (100% accuracy 25% performance) improvements will come later) `O(N^2)`
+15. MaxProfit => 66% (100% accuracy 25% performance) improvements will come later) `O(N^2)`
 
 ***
 *Feel free to contact me if you have any suggestions*
