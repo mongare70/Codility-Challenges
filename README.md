@@ -29,5 +29,7 @@
 
 ### Triangle => 75% (100% accuracy 33% performance) improvements will come later) `O(N^3)`
 
+### Denominator => 83% (100% accuracy 50% performance) improvements will come later) `O(N)`
+
 ***
 *Feel free to contact me if you have any suggestions*
