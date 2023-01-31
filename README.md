@@ -18,6 +18,7 @@
 14. Denominator => 83% (100% accuracy 50% performance improvements will come later) `O(N)`
 15. MaxProfit => 66% (100% accuracy 25% performance improvements will come later) `O(N^2)`
 16. CountFactors => 78% (100% accuracy 50% performance improvements will come later) `O(N)`
+17. MinPerimeterRectangle => 30% (60% accuracy 0% performance improvements will come later) `O(N)`
 
 ***
 *Feel free to contact me if you have any suggestions*
