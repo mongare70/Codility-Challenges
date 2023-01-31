@@ -1,6 +1,8 @@
 # Codility Challenges
+
 > This is a repo to showcase my problem solving techniques using the free Codility training tasks
-***
+
+---
 
 1. Binary Gap => 86%
 2. Odd Occurrences in Array => 66%
@@ -19,6 +21,8 @@
 15. MaxProfit => 66% (100% accuracy 25% performance improvements will come later) `O(N^2)`
 16. CountFactors => 78% (100% accuracy 50% performance improvements will come later) `O(N)`
 17. MinPerimeterRectangle => 30% (60% accuracy 0% performance improvements will come later) `O(N)`
+18. CountNonDivisible => 55% (100% accuracy 0% performance improvements will come later) `O(N^2)`
 
-***
-*Feel free to contact me if you have any suggestions*
+---
+
+_Feel free to contact me if you have any suggestions_
