@@ -22,6 +22,7 @@
 16. CountFactors => 78% (100% accuracy 50% performance improvements will come later) `O(N)`
 17. MinPerimeterRectangle => 30% (60% accuracy 0% performance improvements will come later) `O(N)`
 18. CountNonDivisible => 55% (100% accuracy 0% performance improvements will come later) `O(N^2)`
+19. CountSemiprimes => 55% (100% accuracy 20% performance improvements will come later) ` O(M * N ** (3/2))`
 
 ---
 
